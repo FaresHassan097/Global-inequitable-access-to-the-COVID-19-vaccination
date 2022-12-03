@@ -5,7 +5,7 @@
 - Visualization libraries: matplotlib, seaborn, plotly (interactive visualization)
 - Author: Fares Hassan
 - Datasets: [Our World in Data](https://github.com/owid/covid-19-data), [Duke Global Health Innovation Centre](https://sdgstoday.org/dataset/covid-19-vaccine-procurement), [UN Data](https://www.kaggle.com/sudalairajkumar/undata-country-profiles )
-- Notebook with details coding: [https://colab.research.google.com/drive/1_y5MCmAptpWYK-XxzziXwRSCJXfWTyX3?usp=sharing](https://colab.research.google.com/drive/17LTS_td83AOCK4S_4gBwj3AaX5FNX87Y?usp=sharing)
+- Notebook with details coding: https://colab.research.google.com/drive/1-a6kM6krk5bWAF5hv7OAy9zcQXXREQ3x#scrollTo=kiWGWbT_wegG
 ## Background and motivation
 In relation with the development of COVID-19 vaccines by the end of 2020, WHO partnered with UNICEF to introduce COVAX, a programme aimed at encouraging equal vaccine distribution in all countries, in which the wealthier nations commit to donating vaccine doses to poor ones (WHO Vaccine Equity 2020).
 <br/>
@@ -31,15 +31,15 @@ At the end, the purpose of this research is to provide some valuable insights in
 Bar charts and Choropleth map illustrate the vaccination progress between regions in the world
 ### Q1: What are the top biggest countries with vaccinations progress ?
 
-![top_countries_highest_vaccination_progress](charts/top_countries_highest_vaccination_progress.png)
+![image](https://user-images.githubusercontent.com/117833217/205429052-f19c5b5b-cab6-4084-a8bf-4e1d38cf546e.png)
 ### Q2: What are the top lowest countries with vaccinations progress ?
 
-![top_countries_lowest_vaccination_progress](charts/top_countries_lowest_vaccination_progress.png)
+![image](https://user-images.githubusercontent.com/117833217/205429063-56494092-d38a-4c4d-9287-e23fff896ac2.png)
 ### Q3: What are the highest and lowest vaccination progress by continents?
 
-![vaccination_progress_by_regions](charts/vaccination_progress_by_regions.png)
+![image](https://user-images.githubusercontent.com/117833217/205429071-e8d0bda9-b0d6-413c-ac09-0cd3502b643a.png)
 
-![vaccination_progress_regions_choropleth_map](charts/vaccination_progress_regions_choropleth_map.png)
+![image](https://user-images.githubusercontent.com/117833217/205429086-d2531b80-493e-458e-ab9e-bcacb1d71942.png)
 
 ### Findings:
 #### High income countries in Eastern and Southern Asia, Northern and South America, and Western Europe are among the first to vaccinate their citizens
@@ -59,13 +59,13 @@ Bar charts and Choropleth map illustrate the vaccination progress between region
 ### Q1: What are the demographic factors influence the vaccination rate?
 Heat Map visualize relationship among vaccination rate with demographic factors
 
-![factors_influence_vaccination_rate](charts/factors_influence_vaccination_rate.png)
+![image](https://user-images.githubusercontent.com/117833217/205429107-0595773c-b49b-4f27-9299-6641198a1b32.png)
 > The heatmap above revealed that the **total population, GDP per capita,** and **percentage of GDP spent on health** all have a positive correlation with total vaccination. As a result, they are identified as main demographic factors influencing vaccination progress.
 
 ### Q2: How population impact to vaccination progress and vaccine worldwide distribution?
 The COVID-19 vaccines have been pre-ordered in greater than the real need of many wealthy countries
 
-![market_commitment_top_20_countries](charts/market_commitment_top_20_countries.png)
+![image](https://user-images.githubusercontent.com/117833217/205429112-ea0fb42e-02f5-4279-aca4-4680bda00293.png)
 > The size of the population certainly has an impact on both the rate of distribution and the coverage of the covid vaccination. Examples include China and India, which together account for 40% of the world's population. Despite having the advantage of manufacturing its own vaccine since the end of 2020, the deployment of vaccination campaign in both nations has been delayed due to high population density. Only 77 percent of Chinese citizens had got two doses of the vaccine as of November 2021. In India, the number is much lower, at only 22%.
 
 > On the other side, the size of the population also influences the situation in which rich nations (high-income and upper middle-incom) order an excess of vaccines, resulting in a scarcity of vaccine supplies for poor nations in Figure 8.<br/><br/>
@@ -74,11 +74,11 @@ The COVID-19 vaccines have been pre-ordered in greater than the real need of man
 ### Q3: How economic power impact to vaccination progress and vaccine worldwide distribution?
 Positive correlation between vaccination rates with GDP
 
-![correlation_vaccination_rates_GDP](charts/correlation_vaccination_rates_GDP.png)
+![image](https://user-images.githubusercontent.com/117833217/205429122-368c517f-f7a7-4bff-84c0-d509e3504813.png)
 
 Purchasing power between countries caused by economic prosperity
 
-![market_commitment_economic_status](charts/market_commitment_economic_status.png)
+![image](https://user-images.githubusercontent.com/117833217/205429131-37d7716b-210c-48d0-afb5-433de34fa0de.png)
 
 > The economic status strongly influence on immunisation rates of a country. It is shown in the Figure 10 that nations with a high GDP per capita will be able to pre-order and develop their own vaccinations, while ones with a low GDP completely lose their competitive advantage in early vaccines access race.
 
@@ -87,7 +87,7 @@ Purchasing power between countries caused by economic prosperity
 ### Q4: How Health Expenditure impact to vaccination progress and vaccine worldwide distribution?
 Positive correlation between vaccination rates with Health expenditure
 
-![correlation_vaccination_rates_health_expenditure](charts/correlation_vaccination_rates_health_expenditure.png)
+![image](https://user-images.githubusercontent.com/117833217/205429143-9f70c4ef-75b8-4d2a-bf32-3391554a386b.png)
 
 > Not only health expenditures and vaccination rates are associated; a positive correlation between GDP and total health expenditure was found through Figure 7 also. When a country's economy is performing well, the amount of money it spends on health care as a percentage of its GDP rises. As a consequence, they were able to create a sustainable resource with healthcare professionals, medical facilities, and equipment on standby to respond quickly to any unanticipated worldwide disaster, such as COVID-19, with the least amount of damage.
 
