@@ -3,7 +3,7 @@
 - Python 3.6
 - Analysis libraries: numpy, pandas
 - Visualization libraries: matplotlib, seaborn, plotly (interactive visualization)
-- Author: Fares Hassan
+- Author: Fares Hassan (Faculty of Computer and Information Science | Mansoura University)
 - Datasets: [Our World in Data](https://github.com/owid/covid-19-data), [Duke Global Health Innovation Centre](https://sdgstoday.org/dataset/covid-19-vaccine-procurement), [UN Data](https://www.kaggle.com/sudalairajkumar/undata-country-profiles )
 - Notebook with details coding: https://colab.research.google.com/drive/1-a6kM6krk5bWAF5hv7OAy9zcQXXREQ3x#scrollTo=kiWGWbT_wegG
 ## Background and motivation
